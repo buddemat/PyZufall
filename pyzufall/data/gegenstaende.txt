@@ -10,19 +10,15 @@ das Fahrrad
 das Fenster
 das Feuerzeug
 das Gehirn
-das Gewehr
 das Kabel
 das Keyboard
 das Kind
 das Kissen
 das Klavier
-das Kondom
 das Macbook
-das Messer
 das Mikrofon
 das Notebook
 das Popcorn
-das Pornoheft
 das Radieschen
 das Raumschiff
 das Schlagzeug
@@ -33,12 +29,10 @@ der Autoreifen
 der Baumstamm
 der Boden
 der Computer
-der Dildo
 der Eimer
 der Fernseher
 der Grill
 der Helm
-der Klodeckel
 der Klotz
 der Kopfhörer
 der Kotflügel
@@ -47,7 +41,6 @@ der Legostein
 der Lutscher
 der Löffel
 der Monitor
-der Penis
 der Pflasterstein
 der Rasierer
 der Sattel
@@ -55,8 +48,6 @@ der Schalter
 der Schrank
 der Server
 der Spiegel
-der Sprengsatz
-der Sprengstoff
 der Stiefel
 der Stuhl
 der Tankdeckel
@@ -64,7 +55,6 @@ der Tisch
 der Vorschlaghammer
 der Zaun
 die Ampel
-die Atombombe
 die Badewanne
 die Bratwurst
 die Brechstange
@@ -73,7 +63,6 @@ die Colaflasche
 die Currywurst
 die Dachlatte
 die Dose
-die E-Zigarette
 die Eisenpfanne
 die Festplatte
 die Gabel
@@ -86,14 +75,11 @@ die Kamera
 die Kiste
 die Kugel
 die Lampe
-die Patrone
 die Rassel
 die Schallplatte
-die Scheide
 die Schubkarre
 die Seife
 die Spüle
-die Stabhandgranate
 die Straße
 die Tablette
 die Tapete
@@ -101,5 +87,3 @@ die Tastatur
 die Thermoskanne
 die Tür
 die Vase
-die Zigarette
-die Zigarre

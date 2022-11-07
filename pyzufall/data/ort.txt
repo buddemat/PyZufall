@@ -8,14 +8,12 @@ auf XXName Gartenparty
 auf XXName Geburtstagsfeier
 auf XXName Kellerparty
 auf Youtube
-auf dem Bahnhofsklo
 auf dem Balkon
 auf dem Campingplatz
 auf dem Dach eines Hochhauses
 auf dem Dachboden
 auf dem Fahrrad
 auf dem Friedhof
-auf dem Klo
 auf dem Land
 auf dem Rasen
 auf dem Sofa
@@ -48,13 +46,9 @@ auf einer Hochzeit
 auf einer Insel
 auf einer Rolltreppe
 auf offener Straße
-aufm Scheißhaus
-aufm Strich
 aus gegebenem Anlass
-bei deiner Mutter
 bei den Affen im Zoo
 bei den Nachbarn
-bei den Nutten
 bei der Polizei
 bei einem Konzert
 bei einer Expedition
@@ -65,20 +59,15 @@ beim Grillen
 beim Joggen
 beim Schuldirektor
 beim Wettkampf
-beim ersten Date
 durch die Gegend
 durch die Nacht
 durch die Stadt
 im Aldi
 im Aquarium
 im Arbeitsamt
-im Arsch
-im Asylantenheim
-im Atomkraftwerk
 im Auto
 im Badezimmer
 im Bett
-im Bordell
 im Bunker
 im Bus
 im Büro
@@ -89,28 +78,22 @@ im Fahrstuhl
 im Fernsehen
 im Flugzeug
 im Flur
-im Freudenhaus
 im Garten
 im Gefängnis
 im Imbiss
 im Internet
-im Irrenhaus
 im Kaufhaus
 im Keller
 im Kindergarten
 im Kinderheim
 im Kinderzimmer
 im Kloster
-im Knast
 im Kraftwerk
-im Krieg
 im Museum
 im Palast
 im Paradies
 im Park
 im Partykeller
-im Pornokeller
-im Puff
 im Radio
 im Restaurant
 im Schlaf
@@ -121,7 +104,6 @@ im Serverraum
 im Spukschloss
 im Stadion
 im Supermarkt
-im Swinger Club
 im Traum
 im Treppenhaus
 im U-Boot
@@ -142,7 +124,6 @@ in der Bücherei
 in der Disko
 in der Freizeit
 in der Garage
-in der Gemeinschaftsdusche
 in der Gruft
 in der Hölle
 in der Innenstadt

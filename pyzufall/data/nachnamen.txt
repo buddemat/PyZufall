@@ -746,14 +746,12 @@ Busch
 Busche
 Buschmann
 Buse
-Busen
 Buser
 Buske
 Buss
 Busse
 Bussmann
 Buth
-Butt
 Butter
 Buttkus
 Butz
@@ -1377,8 +1375,6 @@ Fiala
 Fichter
 Fichtl
 Fichtner
-Fick
-Fickbaum
 Fickwerth
 Fieber
 Fiebig
@@ -1436,7 +1432,6 @@ Fornoff
 Forst
 Forster
 Forstner
-Fotzki
 Fox
 Frahm
 Franck
@@ -1527,7 +1522,6 @@ Früh
 Frühauf
 Frühtrink
 Fuchs
-Fucking
 Fuehrer
 Fuerst
 Fuetterer
@@ -1598,7 +1592,6 @@ Gehrig
 Gehring
 Gehrke
 Gehrmann
-Gehteuchnixan
 Geib
 Geibel
 Geier
@@ -2384,7 +2377,6 @@ Hirschfeld
 Hirschmann
 Hirt
 Hirth
-Hitler
 Hitzler
 Hobusch
 Hoch
@@ -2741,7 +2733,6 @@ Jürgens
 Jürgensen
 Jüttner
 Kabel
-Kackebart
 Kaczmarek
 Kaden
 Kader
@@ -3194,18 +3185,10 @@ Kost
 Koster
 Kostic
 Kostka
-Kot
-Koten
-Kotenbeutel
 Kothe
 Kottmann
 Kotulla
-Kotz
-Kotzab
-Kotze
-Kotzer
 Kotzev
-Kotzte
 Kovac
 Kovacs
 Kowalewski
@@ -3732,7 +3715,6 @@ Lover
 Lucas
 Lucht
 Lucke
-Luderfinger
 Ludewig
 Ludwig
 Luebbe
@@ -4350,7 +4332,6 @@ Nord
 Nordmann
 Noss
 Nossek
-Notdurft
 Nova
 Novak
 Novakovic
@@ -4596,7 +4577,6 @@ Piotrowski
 Piper
 Pirrung
 Pischel
-Piss
 Pitt
 Pitz
 Pitzer
@@ -5568,7 +5548,6 @@ Schwan
 Schwanbeck
 Schwandt
 Schwanke
-Schwanz
 Schwark
 Schwartz
 Schwarz
@@ -6207,7 +6186,6 @@ Todt
 Todtenbier
 Toelle
 Toepfer
-Toilet
 Tolksdorf
 Tom
 Tomic

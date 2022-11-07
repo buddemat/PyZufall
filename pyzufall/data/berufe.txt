@@ -45,7 +45,6 @@ Betriebswirt
 Bildhauer
 Bodenleger
 Bogenmacher
-Bombenleger
 Bootsbauer
 Brauer
 Brautechniker
@@ -349,7 +348,6 @@ Servierer
 Siebdrucker
 Silberschmied
 Skilehrer
-Soldat
 Sozialhelfer
 Sozialwirt
 Soziologe
@@ -357,7 +355,6 @@ Spielzeugmacher
 Sportlehrer
 Sporttherapeut
 Sprachwissenschaftler
-Sprengmeister
 Staatsanwalt
 Stahlbauer
 Stahlbetonbauer
@@ -385,7 +382,6 @@ Tiefbaufacharbeiter
 Tierarzt
 Tierpfleger
 Tischler
-Totengräber
 Touristikmanager
 Trainer
 Trockenbaumonteur

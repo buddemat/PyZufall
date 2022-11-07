@@ -23,7 +23,7 @@ from pyzufall.helfer import re_wort, re_worte, re_liste, re_datum, re_email
 # Benutze /dev/urandom oder Windows CryptGenRandom für bessere Entropy
 r = random.SystemRandom()
 
-def init_generator():
+def init_generator(clean = False):
     # Namen einlesen
     global vornamen_m
     vornamen_m = lese('vornamen_m.txt')
@@ -31,6 +31,8 @@ def init_generator():
     vornamen_w = lese('vornamen_w.txt')
     global nachnamen
     nachnamen = lese('nachnamen.txt')
+    if not clean:
+        nachnamen += lese('nachnamen_additional.txt')
     
     # Objekte einlesen
     global pflanzen
@@ -41,26 +43,40 @@ def init_generator():
     tiere = lese('tiere.txt')
     global gegenstaende
     gegenstaende = lese('gegenstaende.txt')
+    if not clean:
+        gegenstaende += lese('gegenstaende_additional.txt')
     global koerperteile
     koerperteile = lese('koerperteile.txt')
+    if not clean:
+        koerperteile += lese('koerperteile_additional.txt')
     global nahrung
     nahrung = lese('nahrung.txt')
     global geschmack
     geschmack = lese('geschmack.txt')
     global berufe
     berufe = lese('berufe.txt')
+    if not clean:
+        berufe += lese('berufe_additional.txt')
     global musik
     musik = lese('musikgenre.txt')
     global stadte
     stadte = lese('stadt_bundesland.txt')
     global interessen
     interessen = lese('interessen.txt')
+    if not clean:
+        interessen  += lese('interessen_additional.txt')
     global domains
     domains = lese('email_domains.txt')
+    if not clean:
+        domains += lese('email_domains_additional.txt')
     global spezial_m
     spezial_m = lese('person_spezial_m.txt')
+    if not clean:
+        spezial_m += lese('person_spezial_m_additional.txt')
     global spezial_w
     spezial_w = lese('person_spezial_w.txt')
+    if not clean:
+        spezial_w += lese('person_spezial_w_additional.txt')
     
     # Wortarten einlesen
     
@@ -69,10 +85,16 @@ def init_generator():
     nullwertige_verben = lese('nullwertige_verben.txt')
     global intransitive_verben
     intransitive_verben = lese('intransitive_verben.txt')
+    if not clean:
+        intransitive_verben += lese('intransitive_verben_additional.txt')
     global intransitive_verben_2
     intransitive_verben_2 = lese('intransitive_verben_2.txt')
+    if not clean:
+        intransitive_verben_2 += lese('intransitive_verben_2_additional.txt')
     global transitive_verben
     transitive_verben = lese('transitive_verben.txt')
+    if not clean:
+        transitive_verben += lese('transitive_verben_additional.txt')
     global transitive_verben_2
     transitive_verben_2 = lese('transitive_verben_2.txt')
     global ditransitive_verben
@@ -81,10 +103,14 @@ def init_generator():
     # Adjektive
     global adjektive
     adjektive = lese('adjektiv.txt')
+    if not clean:
+        adjektive += lese('adjektiv_additional.txt')
 
     # Satzteile oder Sätze
     global ortsangabe
     ortsangabe = lese('ort.txt')
+    if not clean:
+        ortsangabe += lese('ort_additional.txt')
     global ns
     ns = lese('nebensatz.txt')
     global sprichwoerter
