@@ -23,47 +23,78 @@ from pyzufall.helfer import re_wort, re_worte, re_liste, re_datum, re_email
 # Benutze /dev/urandom oder Windows CryptGenRandom für bessere Entropy
 r = random.SystemRandom()
 
-# Namen einlesen
-vornamen_m = lese('vornamen_m.txt')
-vornamen_w = lese('vornamen_w.txt')
-nachnamen = lese('nachnamen.txt')
+def init_generator():
+    # Namen einlesen
+    global vornamen_m
+    vornamen_m = lese('vornamen_m.txt')
+    global vornamen_w
+    vornamen_w = lese('vornamen_w.txt')
+    global nachnamen
+    nachnamen = lese('nachnamen.txt')
+    
+    # Objekte einlesen
+    global pflanzen
+    pflanzen = lese('pflanzen.txt')
+    global baeume
+    baeume = lese('baeume.txt')
+    global tiere
+    tiere = lese('tiere.txt')
+    global gegenstaende
+    gegenstaende = lese('gegenstaende.txt')
+    global koerperteile
+    koerperteile = lese('koerperteile.txt')
+    global nahrung
+    nahrung = lese('nahrung.txt')
+    global geschmack
+    geschmack = lese('geschmack.txt')
+    global berufe
+    berufe = lese('berufe.txt')
+    global musik
+    musik = lese('musikgenre.txt')
+    global stadte
+    stadte = lese('stadt_bundesland.txt')
+    global interessen
+    interessen = lese('interessen.txt')
+    global domains
+    domains = lese('email_domains.txt')
+    global spezial_m
+    spezial_m = lese('person_spezial_m.txt')
+    global spezial_w
+    spezial_w = lese('person_spezial_w.txt')
+    
+    # Wortarten einlesen
+    
+    # Verben
+    global nullwertige_verben
+    nullwertige_verben = lese('nullwertige_verben.txt')
+    global intransitive_verben
+    intransitive_verben = lese('intransitive_verben.txt')
+    global intransitive_verben_2
+    intransitive_verben_2 = lese('intransitive_verben_2.txt')
+    global transitive_verben
+    transitive_verben = lese('transitive_verben.txt')
+    global transitive_verben_2
+    transitive_verben_2 = lese('transitive_verben_2.txt')
+    global ditransitive_verben
+    ditransitive_verben = lese('ditransitive_verben.txt')
+    
+    # Adjektive
+    global adjektive
+    adjektive = lese('adjektiv.txt')
 
-# Objekte einlesen
-pflanzen = lese('pflanzen.txt')
-baeume = lese('baeume.txt')
-tiere = lese('tiere.txt')
-gegenstaende = lese('gegenstaende.txt')
-koerperteile = lese('koerperteile.txt')
-nahrung = lese('nahrung.txt')
-geschmack = lese('geschmack.txt')
-berufe = lese('berufe.txt')
-musik = lese('musikgenre.txt')
-stadte = lese('stadt_bundesland.txt')
-interessen = lese('interessen.txt')
-domains = lese('email_domains.txt')
-spezial_m = lese('person_spezial_m.txt')
-spezial_w = lese('person_spezial_w.txt')
+    # Satzteile oder Sätze
+    global ortsangabe
+    ortsangabe = lese('ort.txt')
+    global ns
+    ns = lese('nebensatz.txt')
+    global sprichwoerter
+    sprichwoerter = lese('sprichwoerter.txt')
+    
+    # Bandnamen-Teile
+    global gruppe
+    gruppe = lese('gruppe.txt')
 
-# Wortarten einlesen
-
-# Verben
-nullwertige_verben = lese('nullwertige_verben.txt')
-intransitive_verben = lese('intransitive_verben.txt')
-intransitive_verben_2 = lese('intransitive_verben_2.txt')
-transitive_verben = lese('transitive_verben.txt')
-transitive_verben_2 = lese('transitive_verben_2.txt')
-ditransitive_verben = lese('ditransitive_verben.txt')
-
-# Adjektive
-adjektive = lese('adjektiv.txt')
-
-# Sazteile oder Sätze
-ortsangabe = lese('ort.txt')
-ns = lese('nebensatz.txt')
-sprichwoerter = lese('sprichwoerter.txt')
-
-# Bandnamen-Teile
-gruppe = lese('gruppe.txt')
+init_generator()
 
 def geschlecht():
 	"""
