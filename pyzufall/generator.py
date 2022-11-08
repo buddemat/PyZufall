@@ -24,6 +24,14 @@ from pyzufall.helfer import re_wort, re_worte, re_liste, re_datum, re_email
 r = random.SystemRandom()
 
 def init_generator(clean = False):
+    """
+    Initialisiert den Generator mit den Wortlisten. 
+    
+    Optional können die geladenen Begriffe eingeschränkt werden.
+    
+    clean = True: Es wird nur ein Teil der Wortlisten geladen, insbesondere stark Sex- oder Gewalt-konnotierte Begriffe werden nicht geladen.
+    """
+	
     # Namen einlesen
     global vornamen_m
     vornamen_m = lese('vornamen_m.txt')
